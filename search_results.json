@@ -1,0 +1,74 @@
+{
+ "total": {
+  "better": 1654,
+  "equivalent": 68346,
+  "worse": 30000
+ },
+ "families": {
+  "affine-equivalent inverse maps": {
+   "equivalent": 68346,
+   "better": 1654,
+   "nl_hist": {
+    "112": 70000
+   },
+   "du_hist": {
+    "4": 70000
+   }
+  },
+  "AES with 1-3 swaps": {
+   "worse": 20000,
+   "nl_hist": {
+    "106": 4109,
+    "108": 8931,
+    "110": 6912,
+    "112": 48
+   },
+   "du_hist": {
+    "4": 1998,
+    "6": 17554,
+    "8": 439,
+    "10": 9
+   }
+  },
+  "uniform random permutations": {
+   "worse": 10000,
+   "nl_hist": {
+    "78": 1,
+    "82": 7,
+    "84": 26,
+    "86": 113,
+    "88": 409,
+    "90": 1266,
+    "92": 3172,
+    "94": 3871,
+    "96": 1122,
+    "98": 13
+   },
+   "du_hist": {
+    "10": 3949,
+    "12": 5404,
+    "14": 609,
+    "16": 34,
+    "18": 4
+   }
+  }
+ },
+ "aes_baseline": {
+  "bijective": 1.0,
+  "nl": 112.0,
+  "autocorr": 32.0,
+  "du": 4.0,
+  "degree": 7.0,
+  "sac_dev": 0.052734375,
+  "fixed": 0.0
+ },
+ "best_metrics": {
+  "bijective": 1.0,
+  "nl": 112.0,
+  "autocorr": 32.0,
+  "du": 4.0,
+  "degree": 7.0,
+  "sac_dev": 0.0380859375,
+  "fixed": 0.0
+ }
+}
